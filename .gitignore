@@ -45,3 +45,6 @@ data/audio/*.mp3
 # Temporary files
 *.tmp
 *.temp
+
+external/NanoTrack/
+data/sot/
