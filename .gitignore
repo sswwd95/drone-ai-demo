@@ -1,0 +1,47 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ultralytics / YOLO outputs
+runs/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Large datasets
+data/video/VisDrone2019-MOT-val/
+data/video/*.zip
+
+# Generated videos
+data/video/visdrone_test.mp4
+
+# Audio test files
+data/audio/*.wav
+data/audio/*.mp3
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
